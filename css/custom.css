@@ -1,0 +1,215 @@
+/*NAVBAR*/
+ul.nav {
+  font-size: 13px;
+}
+
+.navbar-nav a {
+  font-family: "Arvo", courier, serif;
+  color: rgb(155, 152, 152) !important;
+}
+
+ul.nav,
+.jumbotron h1 {
+  font-family: "Arvo", courier, serif;
+}
+
+/* Taille de la police Navbar */
+.navbar-nav ul {
+  font-size: large !important;
+}
+/* BURGER MENU */
+.fa-bars {
+  border: solid 1px rgb(124, 115, 115);
+  padding: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 5px;
+  display: none;
+}
+
+/*GET INVOLVED*/
+#get-involved {
+  background-color: #f5f5f5;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  text-align: center;
+  background-image: url("../images/hero-image.jpg");
+  background-position-y: -25px;
+  color: white;
+}
+
+.jumbotron h1 {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.jumbotron p {
+  margin-top: 34px;
+  margin-bottom: 27px;
+  padding: 0% 10%;
+  font-weight: 100;
+}
+
+#jumbotext {
+  font-size: 20px;
+}
+
+#logocode {
+  margin-bottom: 40px;
+}
+
+/*Btn Learn more*/
+.btn-lg {
+  font-size: 2.2rem;
+  background-color: #f34c3b !important;
+}
+
+/*Style appliqué à HOURS et CODE.org*/
+.bold {
+  font-weight: bolder;
+  font-size: large;
+}
+
+/* SECTIONS / WHO WE ARE + GET INVOLVED : HOMEPAGE */
+.homepage {
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* Couleur + Police pour chaque section (who we are + get involved) */
+.homepage h2,
+.homepage h3 {
+  color: #f34c3b;
+  font-family: "Arvo", courier, serif;
+}
+
+.homepage h2 {
+  font-size: 30px;
+}
+
+.homepage h3 {
+  font-size: 26px;
+}
+
+.homepage p {
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.homepage a {
+  color: #f34c3b;
+}
+
+.homepage hr {
+  border-top: 1px solid #f34c3b;
+  width: 160px;
+  margin-top: 15px;
+}
+
+/* Effet hover pour signifier que c'est un boutton cliqué ("Learn More") */
+.homepage a:hover {
+  color: #c95b4e;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+/* FOOTER */
+footer {
+  background-color: #f74c3c;
+  padding-top: 150px;
+  padding-bottom: 30px;
+}
+/* B O N U S  */
+
+/* Bouton Back-to-top */
+#back-to-top {
+  display: block;
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  z-index: 1;
+  padding: 15px;
+  cursor: pointer;
+}
+
+#burger {
+  cursor: pointer;
+}
+
+/*Responsive 1199px*/
+@media (max-width: 1199px) {
+  /* NAVBAR */
+  .navbar-nav a {
+    font-size: 12px;
+  }
+  /* JUMBOTRON*/
+  .jumbotron {
+    background-position-y: 0px;
+  }
+  .jumbotron p {
+    padding: 0% 17%;
+  }
+  .jumbotron h1 {
+    font-size: 56px;
+    margin-bottom: 30px;
+  }
+}
+
+/*Responsive 991px*/
+@media (max-width: 991px) {
+  /* JUMBOTRON*/
+  .jumbotron h1 {
+    font-size: 44px;
+  }
+
+  #get-involved .col-md-4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+/*Responsive 767px*/
+@media (max-width: 767px) {
+  .fa-bars {
+    display: block;
+  }
+
+  .nav-item {
+    display: none !important;
+  }
+
+  /* JUMBOTRON*/
+  .jumbotron {
+    background-position: center;
+    background-size: 2416px;
+    background-position-y: -25px;
+    background-position-x: -5px;
+  }
+  .jumbotron h1 {
+    font-size: 30px;
+  }
+  .jumbotron p {
+    font-size: medium !important;
+    padding: 0% 3%;
+  }
+  #logocode {
+    margin-bottom: 20px;
+  }
+
+  /* Btn Learn more */
+  .btn-lg {
+    font-size: 18px;
+  }
+
+  /*FOOTER*/
+  footer img {
+    width: 80%;
+  }
+
+  .homepage p {
+    font-size: 18px;
+  }
+}
